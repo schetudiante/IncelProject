@@ -12,6 +12,8 @@ import sklearn.decomposition
 import sklearn.metrics
 import ast
 
+# below are some attempts to simplify my work by creating functions. They work okay except for the plotSilhouette which didn't really work unless I wrote it in the notebook itself.
+
 slang = []
 with open('data/slang.txt', 'r') as f:
     for line in f:
